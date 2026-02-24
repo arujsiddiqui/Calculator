@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 
+  Calculator
+</title>
+
+<link rel="icon" type="image/png" href="images/calculator.png">
+
+ <link rel="stylesheet" href="styles/calculator.css">
+</head>
+<body>
+
+<div class="container">
+<p>
+  CALCULATOR
+</p>
+
+<p>
+<button class="color" onclick="updateCalculation('1');">1</button>
+<button class="color" onclick="updateCalculation('2');">2</button>
+<button class="color" onclick="updateCalculation('3');">3</button>
+<button onclick="updateCalculation('+');">+</button>
+</p>
+
+<p>
+<button class="color" onclick="updateCalculation('4');">4</button>
+<button class="color" onclick="updateCalculation('5');">5</button>
+<button class="color" onclick="updateCalculation('6');">6</button>
+<button onclick="updateCalculation('-');">-</button>
+</p>
+
+<p>
+<button class="color" onclick="updateCalculation('7');">7</button>
+<button class="color" onclick="updateCalculation('8');">8</button>
+<button class="color" onclick="updateCalculation('9');">9</button>
+<button onclick="updateCalculation('*');">*</button>
+</p>
+
+<p>
+<button class="color" onclick="updateCalculation('0');">0</button>
+<button onclick="updateCalculation('.');">.</button>
+<button onclick="calculateResult();">=</button>
+<button onclick="updateCalculation('/');">/</button>
+</p>
+
+<p>
+<button onclick="clearDisplay()">Clear</button>
+</p>
+
+<p id="display"></p>
+
+</div>
+
+<script src="scripts/calculator.js"></script>
+
+</body>
+</html>

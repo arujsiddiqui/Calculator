@@ -1,0 +1,43 @@
+body{
+  background-color: aqua; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.color {
+  background-color: brown;
+}
+
+.container{
+  text-align: center;
+}
+
+.container p:first-child{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button{
+  width: 65px;
+  height: 55px;
+  font-size: 20px;
+  margin: 6px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#display{
+  height: 50px;
+  width: 280px;
+  background: white;
+  margin: 20px auto;
+  border-radius: 8px;
+  font-size: 22px;
+  line-height: 50px;
+  text-align: right;
+  padding-right: 10px;
+}
